@@ -1,0 +1,14 @@
+@import '../../styles/variables.scss';
+@import '../../styles/extends.scss';
+
+.forgetPassword {
+	.content {
+		.form {
+			padding: 0 !important;
+			overflow: hidden;
+			.fields {
+				padding: 30px 40px 10px 40px;
+			}
+		}
+	}
+}

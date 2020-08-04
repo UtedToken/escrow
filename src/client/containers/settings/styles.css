@@ -1,0 +1,250 @@
+/*app specific*/
+/*fonts*/
+/*colors*/
+/*borders*/
+/*backgrounds*/
+/*titles*/
+/*links*/
+/*text*/
+/*social*/
+.settings .content {
+	width: 50%;
+	margin: auto;
+	padding: 50px 0px;
+}
+
+.settings .content .page-title {
+	font-size: 20px;
+	font-family: Lato-Regular, sans-serif;
+	margin-bottom: 20px;
+}
+
+.settings .content .form .form-section ::-webkit-input-placeholder {
+	/* Chrome/Opera/Safari */
+	color: #8d8d8d;
+	text-transform: uppercase;
+	font-family: Lato-Light, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.settings .content .form .form-section ::-moz-placeholder {
+	/* Firefox 19+ */
+	color: #8d8d8d;
+	text-transform: uppercase;
+	font-family: Lato-Light, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.settings .content .form .form-section :-ms-input-placeholder {
+	/* IE 10+ */
+	color: #8d8d8d;
+	text-transform: uppercase;
+	font-family: Lato-Light, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.settings .content .form .form-section :-moz-placeholder {
+	/* Firefox 18- */
+	color: #8d8d8d;
+	text-transform: uppercase;
+	font-family: Lato-Light, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.settings .content .form .form-section .has-error.has-feedback:after,
+.settings .content .form .form-section .has-success.has-feedback:after,
+.settings .content .form .form-section .has-warning.has-feedback:after,
+.settings .content .form .form-section .is-validating.has-feedback:after {
+	top: 7px;
+}
+
+.settings .content .form .form-section .title {
+	font-size: 16px;
+	margin-bottom: 5px;
+	font-family: Lato-Regular, sans-serif;
+}
+
+.settings .content .form .form-section input {
+	background: #f0f0f0;
+	font-size: 14px;
+	height: 44px;
+	width: 100%;
+	border: 1px solid #f0f0f0;
+}
+
+.settings .content .form .form-section input:focus {
+	outline: 0;
+	box-shadow: none;
+}
+
+.settings .content .form .form-section .inline .column .ant-row {
+	margin-bottom: 10px;
+}
+
+.settings .content .form .form-section .inline .column.first .ant-row {
+	margin-bottom: 10px;
+}
+
+.settings .content .form .form-section .inline .button {
+	padding-right: 10px;
+}
+
+.settings .content .form .form-section .inline .button .manage-btn {
+	width: 100%;
+	height: 44px;
+	background: #8d8d8d;
+	color: #fff;
+	text-transform: uppercase;
+	border: 1px solid #8d8d8d;
+}
+
+.settings .content .form .form-section .inline .button .manage-btn:hover {
+	border: 1px solid #8d8d8d;
+}
+
+.settings .content .form .form-section .react-tel-input {
+	margin-bottom: 10px;
+	margin-right: 10px;
+	width: 100%;
+}
+
+.settings .content .form .form-section .react-tel-input input {
+	box-shadow: none;
+}
+
+.settings .content .form .form-section .react-tel-input .flag-dropdown {
+	border: none;
+}
+
+.settings
+	.content
+	.form
+	.form-section
+	.react-tel-input
+	.flag-dropdown
+	.selected-flag {
+	height: 42px;
+}
+
+.settings
+	.content
+	.form
+	.form-section
+	.react-tel-input
+	.flag-dropdown
+	.selected-flag:hover {
+	background-color: #eaeaea;
+}
+
+.settings
+	.content
+	.form
+	.form-section
+	.react-tel-input
+	.flag-dropdown.open-dropdown {
+	background-color: #eaeaea;
+}
+
+.settings
+	.content
+	.form
+	.form-section
+	.react-tel-input
+	.flag-dropdown.open-dropdown
+	.selected-flag {
+	background-color: #eaeaea;
+}
+
+.settings .content .form .form-section .react-tel-input .country-list {
+	z-index: 5;
+	top: 48px;
+}
+
+.settings .content .form .form-section .message {
+	font-size: 12px;
+	margin-bottom: 15px;
+	color: #a2a2a2;
+}
+
+.settings .content .form .form-section .ant-avatar {
+	width: 180px;
+	height: 180px;
+}
+
+.settings .content .form .action {
+	overflow: hidden;
+}
+
+.settings .content .form .submit-btn {
+	height: 45px;
+	width: 200px;
+	background-color: #fc404e;
+	font-family: Lato-Regular, sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 14px;
+	border: none;
+	float: right;
+	margin-top: 10px;
+}
+
+.settings .content .form .ant-input-affix-wrapper .ant-input-prefix {
+	left: inherit;
+	right: 30px;
+	font-size: 18px;
+}
+
+.settings .content .form .ant-input-affix-wrapper .ant-input-prefix a {
+	color: #8d8d8d;
+}
+
+.settings .content .form .ant-input-affix-wrapper .ant-input:not(:first-child) {
+	padding-left: 6px;
+}
+
+.settings .content .setting {
+	border: 1px solid #e9e9e9;
+	border-radius: 4px;
+	padding: 20px;
+	background: #fff;
+	margin-bottom: 15px;
+}
+
+.settings .content .setting .item {
+	margin-bottom: 10px;
+}
+
+/* responsiveness */
+@media (max-width: 1024px) {
+	.settings {
+		width: 100%;
+		padding: 0 10px;
+	}
+
+	.settings .content {
+		width: 100%;
+		padding: 20px 0 100px 0;
+	}
+
+	.settings .content .setting {
+		padding: 10px;
+	}
+
+	.settings .content .form .submit-btn {
+		width: inherit;
+		height: 35px;
+		font-size: 10px;
+	}
+
+	.settings .form .form-section .inline .column.first .ant-row {
+		margin-right: 0;
+	}
+}
+
+/* /responsiveness */
+
+/*# sourceMappingURL=styles.css.map */

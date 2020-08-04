@@ -1,0 +1,5 @@
+{
+	"project.name.title": ["Name"],
+	"project.name.error.required": ["Please enter the name of the project"],
+	"project.label.title": ["Project Labels"]
+}

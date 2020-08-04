@@ -1,0 +1,15 @@
+{
+	"name": "razzle-plugin-antdesign",
+	"version": "1.0.0",
+	"description": "a plugin for razzle which let us can use ant-design",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"babel-plugin-import": "^1.8.0",
+		"razzle-dev-utils": "^2.1.1"
+	},
+	"author": "",
+	"license": "ISC"
+}

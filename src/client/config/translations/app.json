@@ -1,0 +1,12 @@
+{
+	"app.invite.success": ["Invitation sent successfully"],
+	"app.invite.error": ["Error while sending invitation to this email"],
+	"app.invite.cancel.success": ["Invitation cancelled successfully"],
+	"app.invite.cancel.error": [
+		"Error while cancelling invitation to this email"
+	],
+	"app.invite.error.reinvite": [
+		"User is already invited, Please Click Reinvite to re-invite the user."
+	],
+	"app.invite.error.invalid": ["Invalid invitation link"]
+}

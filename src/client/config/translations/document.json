@@ -1,0 +1,5 @@
+{
+	"document.name.title": ["Name"],
+	"document.file.title": ["Select Document"],
+	"document.name.error.required": ["Please enter the name of the Document"]
+}

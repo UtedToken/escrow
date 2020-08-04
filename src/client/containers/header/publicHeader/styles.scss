@@ -1,0 +1,144 @@
+@import '../../../../../node_modules/core-styles/variables';
+
+.public-header {
+	background: #fff;
+	height: inherit;
+	box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+
+	&.fixed {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 99;
+		padding: 0;
+		line-height: inherit;
+	}
+
+	.container {
+		position: relative;
+	}
+
+	ul {
+		align-items: center;
+		margin: 0;
+
+		li {
+			display: inline-block;
+		}
+	}
+
+	.bottom-section {
+		padding: 15px 0 12px 0;
+		height: 67px;
+
+		.content {
+			display: flex;
+			justify-content: space-between;
+
+			.left {
+			}
+
+			.logo-container {
+				.logo {
+					img {
+						width: 120px;
+						//  margin-top: 10px;
+					}
+				}
+			}
+
+			.right {
+				display: flex;
+			}
+
+			.search {
+				display: block;
+
+				.ant-form {
+					display: flex;
+
+					.ant-row {
+						margin-bottom: 0;
+
+						.ant-input {
+							height: 45px;
+							border-right: none;
+							border-top-right-radius: 0;
+							border-bottom-right-radius: 0;
+							border-color: $border-light-color;
+
+							&:focus {
+								box-shadow: none;
+							}
+						}
+					}
+				}
+
+				.action {
+					.ant-btn {
+						height: 45px;
+						margin: 0;
+						font-size: 20px;
+						padding: 0 10px;
+						border-top-left-radius: 0;
+						border-bottom-left-radius: 0;
+
+						&:hover {
+							background: $primary-color;
+							border-color: $primary-color;
+
+							i {
+								color: #fff;
+							}
+						}
+					}
+				}
+			}
+
+			.navigation {
+				ul {
+					li {
+						vertical-align: top;
+
+						a {
+							color: #555;
+							border-bottom: 3px solid transparent;
+							display: block;
+							margin-left: 15px;
+							font-size: 13px;
+							letter-spacing: 1px;
+							text-decoration: none;
+							position: relative;
+							font-weight: bold;
+							font-family: $roboto-regular;
+							text-transform: uppercase;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&.scrolled {
+		.bottom-section {
+			.search {
+				display: block !important;
+			}
+		}
+	}
+}
+
+/* responsiveness */
+@media (max-width: 1160px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 762px) {
+}
+
+/* /responsiveness */

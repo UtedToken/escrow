@@ -1,0 +1,122 @@
+/*app specific*/
+/*fonts*/
+/*colors*/
+/*borders*/
+/*backgrounds*/
+/*titles*/
+/*links*/
+/*text*/
+/*social*/
+/*app specific*/
+/*fonts*/
+/*colors*/
+/*borders*/
+/*backgrounds*/
+/*titles*/
+/*links*/
+/*text*/
+/*social*/
+/* backgrounds */
+.background {
+	display: block;
+	background-color: #d8d8d8;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* content center */
+.content-center,
+.profile .content {
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-align: center;
+	align-items: center;
+	vertical-align: middle;
+	text-align: center;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.profile {
+	margin-top: -60px;
+}
+
+.profile .content {
+	height: 100vh;
+}
+
+.profile .content .details {
+	width: 350px;
+	font-family: Lato-Light, sans-serif;
+}
+
+.profile .content .details .ant-avatar {
+	width: 180px;
+	height: 180px;
+	margin-bottom: 30px;
+	border: 4px solid #fc404e;
+}
+
+.profile .content .details .form-details {
+	text-align: left;
+	font-size: 15px;
+}
+
+.profile .content .details .form-details .item {
+	background-color: #f0f0f0;
+	border-radius: 4px;
+	padding: 12px 10px;
+	margin-bottom: 10px;
+}
+
+.profile .content .details .form-details .item .label {
+	display: inline-block;
+	color: #fc404e;
+	width: 80px;
+}
+
+.profile .content .details .form-details .item .colon {
+	display: inline-block;
+	width: 50px;
+}
+
+.profile .content .details .action {
+	margin-top: 20px;
+	text-align: right;
+}
+
+/* responsiveness */
+@media (max-width: 1024px) {
+	.profile {
+		padding: 0px 10px;
+		margin-top: 0;
+	}
+
+	.profile .content {
+		min-height: 100vh;
+		height: inherit;
+		padding-bottom: 100px;
+	}
+
+	.profile .content .details {
+		width: 100%;
+	}
+
+	.profile .content .details .ant-avatar {
+		width: 120px;
+		height: 120px;
+	}
+
+	.profile .content .details .form-details .item .label {
+		width: 70px;
+	}
+
+	.profile .content .details .form-details .item .colon {
+		width: 20px;
+	}
+}
+
+/* /responsiveness */
+
+/*# sourceMappingURL=styles.css.map */

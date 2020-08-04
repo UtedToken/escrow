@@ -1,0 +1,8 @@
+{
+	"role.code.title": ["Code"],
+	"role.code.error.required": ["Please enter the role code"],
+	"role.code.error.invalid": ["Code should be alphanumeric"],
+	"role.code.error.exists": ["This role already exists"],
+	"role.description.title": ["Description"],
+	"role.description.error.required": ["Please enter the role description"]
+}

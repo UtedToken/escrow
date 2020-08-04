@@ -1,0 +1,84 @@
+@import '~core-styles/variables.scss';
+
+.sider {
+	background: $primary-color;
+	// border-right: 1px solid $border-light-color;
+	height: calc(100vh - 40px);
+	overflow-y: auto;
+	overflow-x: hidden;
+
+	.ant-menu {
+		border-right: none;
+		background: #010f1c;
+
+		.ant-menu-item {
+			font-size: 14px;
+			background: $primary-color;
+			//border-bottom: 1px solid $border-light-color;
+			color: #a6adb4;
+			font-family: $roboto-regular;
+			margin: 0;
+			height: 50px;
+			line-height: 50px;
+			border-left: 4px solid transparent;
+
+			&.ant-menu-item-selected {
+				background: #1b1b1b;
+				color: #fff;
+				border-left: 4px solid $brand-primary-green;
+			}
+		}
+
+		.ant-menu-submenu {
+			.ant-menu-submenu-title {
+				height: 50px;
+				line-height: 50px;
+				font-size: 14px;
+				background: $primary-color;
+				color: #a6adb4;
+				font-family: $roboto-regular;
+				margin: 0;
+			}
+
+			.ant-menu-sub {
+				.ant-menu-item {
+					border-bottom: none;
+					background: #010f1c;
+
+					&:last-child {
+					}
+				}
+			}
+		}
+	}
+
+	.ant-layout-sider-trigger {
+		background: $light-bg;
+		color: $primary-color;
+		left: -1px;
+		border-top: 1px solid $border-light-color;
+	}
+}
+
+.ant-menu-inline .ant-menu-item:after,
+.ant-menu-vertical .ant-menu-item:after {
+	border-right: none;
+}
+
+/* responsiveness */
+@media (max-width: 992px) {
+}
+
+@media (max-width: 762px) {
+	.sider {
+		position: fixed;
+		z-index: 999;
+		top: 40px;
+		left: 0;
+	}
+}
+
+@media (max-width: 520px) {
+}
+
+/* /responsiveness */

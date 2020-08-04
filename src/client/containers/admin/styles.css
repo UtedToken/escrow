@@ -1,0 +1,253 @@
+/*app specific*/
+/*fonts*/
+/*colors*/
+/*borders*/
+/*backgrounds*/
+/*titles*/
+/*links*/
+/*text*/
+/*social*/
+.admin .sider {
+	padding-top: 20px;
+	background: #fff;
+	border-right: 1px solid #e8e8e8;
+}
+
+.admin .sider .ant-menu {
+	background: #fff;
+}
+
+.admin .sider .ant-menu .ant-menu-item {
+	font-size: 14px;
+}
+
+.admin .sider .ant-menu .ant-menu-item.ant-menu-item-selected {
+	background: #fc404e;
+}
+
+.admin .sider .ant-layout-sider-trigger {
+	background: #f7f7f7;
+	color: #fc404e;
+	left: -1px;
+	border-top: 1px solid #e8e8e8;
+}
+
+.admin .ant-layout {
+	background: #f7f7f7;
+}
+
+.admin .ant-layout .ant-layout-content .data .content {
+	padding-top: 0;
+}
+
+.admin
+	.ant-layout
+	.ant-layout-content
+	.data
+	.content
+	.smart-table
+	.smart-table-header
+	.search
+	input {
+	height: 36px;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.admin
+	.ant-layout
+	.ant-layout-content
+	.data
+	.content
+	.smart-table
+	.smart-table-header
+	.search
+	input:hover {
+	border-color: #c1c1c1;
+}
+
+.admin
+	.ant-layout
+	.ant-layout-content
+	.data
+	.content
+	.smart-table
+	.smart-table-header
+	.search
+	input:focus {
+	border-color: #c1c1c1;
+	outline: 0;
+	box-shadow: none;
+}
+
+.admin
+	.ant-layout
+	.ant-layout-content
+	.data
+	.content
+	.smart-table
+	.smart-table-header
+	.search
+	.ant-input-suffix {
+	right: 8px;
+}
+
+.admin
+	.ant-layout
+	.ant-layout-content
+	.data
+	.content
+	.smart-table
+	.table
+	.ant-table
+	.ant-table-content
+	.ant-table-body
+	tr
+	th {
+	font-family: Roboto-Regular, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	background: #fff6f7;
+}
+
+.admin
+	.ant-layout
+	.ant-layout-content
+	.data
+	.content
+	.smart-table
+	.table
+	.ant-table
+	.ant-table-content
+	.ant-table-body
+	tr
+	td {
+	padding: 8px;
+	font-size: 14px;
+}
+
+.admin
+	.ant-layout
+	.ant-layout-content
+	.data
+	.content
+	.smart-table
+	.notification-btn {
+	border: 1px solid #e8bd0f;
+	color: #e8bd0f;
+}
+
+.add-user-modal .ant-modal-content .ant-modal-header,
+.notification-modal .ant-modal-content .ant-modal-header {
+	background: #fff6f7;
+}
+
+.add-user-modal .ant-modal-content .ant-modal-header .ant-modal-title,
+.notification-modal .ant-modal-content .ant-modal-header .ant-modal-title {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.add-user-modal .ant-modal-content .ant-modal-body,
+.notification-modal .ant-modal-content .ant-modal-body {
+	padding: 0;
+}
+
+.ant-layout-sider-zero-width-trigger {
+	display: none;
+}
+
+/* responsiveness */
+@media (max-width: 1024px) {
+	.admin {
+		/*
+        Label the data
+        */
+	}
+
+	.admin .sider {
+		position: fixed;
+		height: 100%;
+		z-index: 4;
+	}
+
+	.admin .ant-layout .ant-layout-content {
+		margin: 0 8px !important;
+	}
+
+	.admin table {
+		border: 1px solid #e9e9e9 !important;
+	}
+
+	.admin table,
+	.admin thead,
+	.admin tbody,
+	.admin th,
+	.admin td,
+	.admin tr {
+		display: block;
+	}
+
+	.admin thead tr th {
+		display: none;
+	}
+
+	.admin thead tr th:first-child {
+		display: block;
+		width: 100% !important;
+		border-right: none;
+		overflow: hidden;
+	}
+
+	.admin thead tr th:first-child div {
+		float: left;
+	}
+
+	.admin tr:nth-child(even) {
+		background: #f5f7f9;
+	}
+
+	.admin td {
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 50%;
+		display: flex;
+		border-right: none !important;
+	}
+
+	.admin td.ant-table-selection-column {
+		width: 100% !important;
+	}
+
+	.admin td:before {
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+		font-weight: bold;
+		color: #000;
+	}
+	.admin td:nth-of-type(2):before {
+		content: 'checkbox';
+	}
+
+	.admin td:nth-of-type(2):before {
+		content: 'Name';
+	}
+
+	.admin td:nth-of-type(3):before {
+		content: 'Login Provider';
+	}
+
+	.admin td:nth-of-type(4):before {
+		content: 'Login Credentials';
+	}
+
+	.admin td:nth-of-type(5):before {
+		content: 'Actions';
+	}
+}
+
+/* /responsiveness */
+
+/*# sourceMappingURL=styles.css.map */

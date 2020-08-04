@@ -1,0 +1,103 @@
+/*app specific*/
+/*fonts*/
+/*colors*/
+/*borders*/
+/*backgrounds*/
+/*titles*/
+/*links*/
+/*text*/
+/*social*/
+/*app specific*/
+/*fonts*/
+/*colors*/
+/*borders*/
+/*backgrounds*/
+/*titles*/
+/*links*/
+/*text*/
+/*social*/
+/* backgrounds */
+.background {
+	display: block;
+	background-color: #d8d8d8;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* content center */
+.content-center,
+.home .content {
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-align: center;
+	align-items: center;
+	vertical-align: middle;
+	text-align: center;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.home {
+	margin-top: -60px;
+}
+
+.home .content {
+	height: 100vh;
+}
+
+.home .content .welcome {
+	height: 200px;
+	width: 200px;
+	position: relative;
+}
+
+.home .content .welcome .girl {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background-image: url('../../images/girl.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 5px solid #fc404e;
+}
+
+.welcome-popover {
+	z-index: 2;
+}
+
+.welcome-popover .ant-popover-inner {
+	border-radius: 5px !important;
+}
+
+.welcome-popover .ant-popover-inner .popover-content {
+	font-size: 20px;
+	font-family: Lato-Light, sans-serif;
+	padding: 20px;
+}
+
+/* responsiveness */
+@media (max-width: 1024px) {
+	.home .content {
+		padding-top: 60px;
+	}
+
+	.home .content .welcome {
+		height: 120px;
+		width: 120px;
+	}
+
+	.home .content .welcome .girl {
+		width: 120px;
+		height: 120px;
+	}
+
+	.welcome-popover .ant-popover-inner .popover-content {
+		font-size: 15px;
+		padding: 10px;
+	}
+}
+
+/* /responsiveness */
+
+/*# sourceMappingURL=styles.css.map */

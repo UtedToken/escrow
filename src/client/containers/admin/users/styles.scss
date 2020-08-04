@@ -1,0 +1,81 @@
+@import '../../../styles/variables.scss';
+
+.data {
+	.content {
+		.actions {
+			text-align: right;
+			margin-bottom: 10px;
+
+			.ant-btn {
+				margin-left: 10px;
+
+				.icon {
+					margin-right: 5px;
+					font-weight: bold;
+				}
+
+				&.add {
+					border: 1px solid $primary-color;
+					color: $primary-color;
+				}
+
+				&.download {
+					border: 1px solid $brand-primary-green;
+					color: $brand-primary-green;
+				}
+			}
+		}
+	}
+}
+
+.input-textarea {
+	margin-bottom: 10px;
+}
+
+.picker {
+	padding: 10px 10px 5px 10px;
+	background: #e6e6e6;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+.ant-btn-primary {
+	background-color: $primary-color !important;
+	border-color: $primary-color !important;
+}
+
+.ant-pagination-item-active {
+	background-color: $primary-color !important;
+	border-color: $primary-color !important;
+}
+
+/* responsiveness */
+@media (max-width: 1024px) {
+	.data {
+		.content {
+			.smart-table {
+				padding: 20px 0;
+			}
+
+			.actions {
+				.ant-btn {
+					.icon {
+						margin-right: 0;
+					}
+
+					.text {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 762px) {
+}
+
+@media (max-width: 520px) {
+}
+
+/* /responsiveness */

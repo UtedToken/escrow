@@ -1,0 +1,74 @@
+/*app specific*/
+/*fonts*/
+/*colors*/
+/*borders*/
+/*backgrounds*/
+/*titles*/
+/*links*/
+/*text*/
+/*social*/
+.smart-table {
+	padding: 50px 0px;
+}
+
+.smart-table .data-header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.smart-table .data-header .title {
+	font-size: 25px;
+}
+
+.smart-table .data-header .ant-btn {
+	margin-left: 10px;
+}
+
+.smart-table .data-header .ant-btn.add {
+	border: 1px solid #fc404e;
+	color: #fc404e;
+}
+
+.smart-table .data-header .ant-btn.download {
+	border: 1px solid #56b6a1;
+	color: #56b6a1;
+}
+
+.smart-table .search {
+	padding: 10px 0;
+	border-top: 1px solid #e9e9e9;
+}
+
+.smart-table .table .ant-table {
+	background-color: #fff;
+}
+
+.smart-table .table .ant-table .ant-table-thead > tr > th {
+	background-color: #fff;
+}
+
+.smart-table .table .ant-table .ant-table-row td a.delete:hover {
+	color: red;
+}
+
+.smart-table .table .ant-table .ant-table-row td .view-btn {
+	margin-right: 10px;
+}
+
+.smart-table .table .ant-table .ant-table-row td .row-actions .ant-btn {
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.smart-table .table .ant-table .ant-table-row td .row-actions .ant-btn.edit {
+	border: 1px solid #56b6a1;
+	color: #56b6a1;
+}
+
+.smart-table .table .ant-table .ant-table-row td .row-actions .ant-btn.delete {
+	border: 1px solid #fc404e;
+	color: #fc404e;
+}
+
+/*# sourceMappingURL=styles.css.map */

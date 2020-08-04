@@ -1,0 +1,79 @@
+@import '../../../../../node_modules/core-styles/variables';
+
+.ant-modal {
+	&.CustomerForm {
+		width: 80% !important;
+	}
+}
+
+.ant-modal {
+	&.PdfTemplateForm,
+	&.TemplateForm {
+		width: 98% !important;
+
+		.ant-modal-body {
+			padding: 0;
+			background: #fafafa;
+
+			.ant-row {
+				.ant-col {
+					.build {
+						height: 680px;
+						padding: 24px;
+						background: #fff;
+						border-right: 1px solid $border-light-color;
+
+						.editor {
+							.ant-form-item-control {
+								height: 300px;
+								border: 1px solid $border-light-color;
+								padding: 10px;
+								overflow: auto;
+								border-radius: 4px;
+							}
+						}
+					}
+
+					.preview {
+						padding: 24px;
+						height: 680px;
+						overflow: auto;
+
+						.title {
+							color: #292929;
+							font-size: 14px;
+						}
+
+						.content {
+							//zoom: 50%;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.pdf-template-form {
+	.variables {
+	}
+}
+
+.iframe {
+	border: 1px solid $border-light-color;
+	background-color: #fff;
+	width: 100%;
+	height: 500px;
+}
+
+/* responsiveness */
+@media (max-width: 992px) {
+}
+
+@media (max-width: 762px) {
+}
+
+@media (max-width: 520px) {
+}
+
+/* /responsiveness */

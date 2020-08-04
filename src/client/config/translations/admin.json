@@ -1,0 +1,8 @@
+{
+	"admin.notifications.title.error.required": [
+		"Please enter the title of the notification"
+	],
+	"admin.notifications.message.error.required": [
+		"Please enter the message of the notification"
+	]
+}

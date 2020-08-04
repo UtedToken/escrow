@@ -1,0 +1,22 @@
+@import './variables.scss';
+
+/* backgrounds */
+.background {
+	display: block;
+	background-color: $thumbnail-bg;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* content center */
+.content-center {
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-align: center;
+	align-items: center;
+	vertical-align: middle;
+	text-align: center;
+	display: -ms-flexbox;
+	display: flex;
+}

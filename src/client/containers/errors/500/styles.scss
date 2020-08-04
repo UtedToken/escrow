@@ -1,0 +1,32 @@
+.error-page {
+	min-height: 680px;
+
+	.error {
+		width: 50%;
+
+		.graphics {
+			font-size: 100px;
+			margin-bottom: 10px;
+		}
+
+		.error-name {
+			font-size: 80px;
+			color: #e74c3c;
+		}
+
+		.small-msg {
+			font-size: 20px;
+			color: #bdbdbd;
+			margin-bottom: 10px;
+		}
+
+		.descriptive-msg {
+			font-size: 20px;
+			line-height: 30px;
+
+			a {
+				color: $primary-color;
+			}
+		}
+	}
+}

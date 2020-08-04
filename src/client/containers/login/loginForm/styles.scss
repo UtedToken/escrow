@@ -1,0 +1,205 @@
+@import '../../../styles/variables';
+@import '../../../styles/extends';
+
+$form-width: 450px;
+
+.general-form {
+	min-height: calc(100vh - 66px);
+
+	a {
+		font-size: 14px;
+		color: #5d5d5d;
+	}
+
+	.content {
+		overflow: hidden;
+
+		.option {
+			margin: 15px 0 10px 0;
+			font-size: 15px;
+		}
+
+		.form {
+			width: $form-width;
+			background: $brand-white;
+			border-radius: 10px;
+			margin: 100px auto 0 auto;
+			padding: 30px 40px;
+			text-align: center;
+			border: 1px solid $border-light-color;
+
+			.forgot {
+				text-align: right;
+				margin-bottom: 20px;
+			}
+		}
+
+		.registerLink {
+			margin-top: 20px;
+			display: block;
+		}
+
+		.action {
+			button {
+				width: 280px;
+
+				&.submit-btn {
+					margin-top: 20px;
+					color: #fff;
+				}
+			}
+		}
+
+		.separator {
+			margin: 10px 0px;
+		}
+	}
+
+	.options {
+		display: flex;
+		justify-content: space-between;
+		text-align: left;
+
+		.option {
+			line-height: 28px;
+
+			.optionLabel {
+				font-size: 13px;
+				letter-spacing: 2px;
+			}
+
+			.textLink {
+				font-size: 20px;
+			}
+
+			ul {
+				text-align: right;
+
+				li {
+					display: inline-block;
+					margin-left: 8px;
+					margin-top: 4px;
+
+					a {
+						font-size: 25px;
+					}
+				}
+			}
+		}
+
+		&.shared {
+			background: $light-bg;
+			margin-top: 40px;
+			padding: 10px 20px;
+			border-top: 1px solid $border-light-color;
+		}
+	}
+}
+
+.ant-modal {
+	.join-form {
+		height: inherit;
+		margin-top: 50px;
+	}
+}
+
+/* responsiveness */
+@media (max-width: 992px) {
+	.general-form {
+		min-height: 100vh;
+		height: inherit;
+		flex-direction: column;
+
+		.logo {
+			position: inherit;
+			margin-bottom: 10px;
+		}
+
+		.content {
+			width: inherit;
+
+			.form {
+				padding: 30px 20px;
+			}
+
+			.options {
+				.option {
+					ul {
+						li {
+							a {
+								img {
+									width: 25px;
+								}
+							}
+						}
+					}
+
+					.textLink {
+						font-size: 30px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 762px) {
+}
+
+@media (max-width: 520px) {
+	$form-width: 100%;
+	.general-form {
+		padding: 35px 0px;
+
+		.content {
+			width: $form-width;
+			padding: 0px 10px;
+
+			.form {
+				width: $form-width;
+
+				.country-list {
+					width: $form-width;
+				}
+
+				.description {
+					font-size: 13px;
+					padding: 0px 15px;
+				}
+
+				.action {
+					button {
+						width: 100%;
+					}
+				}
+			}
+
+			.options {
+				width: $form-width;
+
+				.option {
+					.optionLabel {
+						font-size: 12px;
+						letter-spacing: 1px;
+						line-height: 18px;
+						margin-bottom: 5px;
+
+						&.right {
+							text-align: right;
+						}
+					}
+
+					.textLink {
+						font-size: 25px;
+					}
+				}
+			}
+		}
+
+		.options {
+			width: $form-width;
+		}
+	}
+}
+
+/* /responsiveness */

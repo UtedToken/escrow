@@ -1,0 +1,14 @@
+{
+	"column.title": "Actions",
+	"delete.button": "Delete",
+	"delete.selected.button": "Delete Selected",
+	"delete.title": "Are you sure delete this record?",
+	"delete.content": "This record will be deleted permanently from the system",
+	"delete.selected.title": "Are you sure delete selected records?",
+	"delete.selected.content": "These records will be deleted permanently from the system",
+	"delete.okText": "Ok",
+	"delete.cancelText": "Cancel",
+	"edit.button": "Edit",
+	"add.button": "Add",
+	"header.title": "Table"
+}

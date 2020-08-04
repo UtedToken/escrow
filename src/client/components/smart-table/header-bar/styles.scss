@@ -1,0 +1,10 @@
+@import '~core-styles/variables.scss';
+
+.smart-table-header {
+	.delete-all {
+		margin-right: 5px;
+		margin-bottom: 5px;
+		border: 1px solid $brand-red;
+		color: $brand-red;
+	}
+}

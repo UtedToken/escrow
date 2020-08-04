@@ -1,0 +1,23 @@
+@import '~core-styles/variables.scss';
+
+.smart-table {
+	&.Invoices {
+		.smart-table-header {
+			.data-header {
+				flex-flow: column-reverse;
+			}
+		}
+	}
+}
+
+/* responsiveness */
+@media (max-width: 992px) {
+}
+
+@media (max-width: 762px) {
+}
+
+@media (max-width: 520px) {
+}
+
+/* /responsiveness */

@@ -1,0 +1,19 @@
+@import '../../../../../node_modules/core-styles/variables';
+
+.ant-modal {
+	&.CustomerForm {
+		width: 80% !important;
+	}
+}
+
+/* responsiveness */
+@media (max-width: 992px) {
+}
+
+@media (max-width: 762px) {
+}
+
+@media (max-width: 520px) {
+}
+
+/* /responsiveness */

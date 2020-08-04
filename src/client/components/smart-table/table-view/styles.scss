@@ -1,0 +1,23 @@
+@import '~core-styles/variables.scss';
+
+.table {
+	.ant-table {
+		background-color: #fff;
+
+		.ant-table-thead > tr > th {
+			background-color: #fff;
+		}
+
+		.ant-table-row {
+			td {
+				a {
+					&.delete {
+						&:hover {
+							color: red;
+						}
+					}
+				}
+			}
+		}
+	}
+}

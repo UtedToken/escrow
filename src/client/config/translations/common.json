@@ -1,0 +1,75 @@
+{
+	"common.email.title": ["Email"],
+	"common.name.title": ["Full Name"],
+	"common.password.title": ["Password"],
+	"common.email.placeholder": ["Email Address"],
+	"common.password.placeholder": ["Enter Password"],
+	"common.confirm-password.placeholder": ["Confirm Password"],
+	"common.fullName.placeholder": ["Enter your full name"],
+	"common.firstName.placeholder": ["First name"],
+	"common.lastName.placeholder": ["Last name"],
+	"common.company.placeholder": ["Company name"],
+	"common.state.placeholder": ["City, State"],
+	"common.gender.placeholder": ["Select Gender"],
+	"common.fullName.error.required": ["Please enter your full name"],
+	"common.field.error.required": ["Please enter this field"],
+	"common.firstName.error.required": ["Please enter your first name"],
+	"common.lastName.error.required": ["Please enter your last name"],
+	"common.company.error.required": ["Please enter your company name"],
+	"common.state.error.required": ["Please enter your state"],
+	"common.gender.error.required": ["Please select your gender"],
+	"common.username.error.required": ["Please enter your username"],
+	"common.email.error.required": ["Please enter email"],
+	"common.email.error.invalid": ["Please enter a valid email"],
+	"common.password.error.required": ["Please enter password"],
+	"common.currentPassword.placeholder": ["Enter current password"],
+	"common.newPassword.placeholder": ["Enter new password"],
+	"common.verification.placeholder": ["Enter OTP to verify"],
+	"common.password.error.invalid": [
+		"Password should be of minimum 6 characters"
+	],
+	"common.confirmPassword.error.required": ["Please enter confirm password"],
+	"common.number.error.required": ["Please enter some number value"],
+	"common.number.error.invalid": ["Please enter numbers only"],
+	"common.terms.error.required": ["You must agree to our terms and conditions"],
+	"common.server.error.unexpected": ["Unexpected Server Error"],
+	"common.server.error.404": ["No such page found"],
+	"common.error.password.match": ["Passwords don't match"],
+	"common.changes.save.success": ["Your changes have been saved successfully."],
+	"common.changes.save.error": [
+		"There was an error while saving your changes. Please try again."
+	],
+	"common.phone.error.required": [
+		"Please enter phone",
+		"S'il vous plaît entrer phone"
+	],
+	"common.phone.error.invalid": [
+		"Please enter a valid numeric phone number.",
+		"Veuillez entrer un numéro de téléphone numérique valide."
+	],
+	"common.phone.error.min": [
+		"Phone number should be of minimum 10 characters.",
+		"Le numéro de téléphone doit comporter au moins 10 caractères."
+	],
+	"common.phone.error.max": [
+		"Phone number should be of maximum 15 characters.",
+		"Le numéro de téléphone doit comporter au maximum 15 caractères."
+	],
+	"common.phone.error.linked": [
+		"This phone number is already linked to another account.",
+		"Ce numéro de téléphone est déjà associé à un autre compte."
+	],
+	"common.phoneOrEmail.error.required": [
+		"Atleast one of phone or email is required",
+		"Au moins un de téléphone ou email est requis"
+	],
+	"common.changes.get.error": [
+		"There was an error while getting your settings. Please try again."
+	],
+	"common.data.get.error": [
+		"There was an error while fetching data from server. Please try again or contact us."
+	],
+	"common.data.delete.error": [
+		"There was an error while deleting the data from server. Please try again or contact us."
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"apps.create.success": [
+		"App Created Successfully,You can check your app on dashboard"
+	],
+	"apps.create.failed": ["There was an error while Creating Your App"],
+	"apps.update.success": ["App Updated Successfully"],
+	"apps.update.failed": ["There was an error while Updating Your App"],
+	"apps.no.more.apps": ["No More Apps Allowed"],
+	"apps.not.exist": ["App Does not exist"],
+	"apps.builds.start.error": [
+		"There was an error occurred while starting Build"
+	]
+}

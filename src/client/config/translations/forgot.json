@@ -1,0 +1,8 @@
+{
+	"forgot.success": [
+		"Please check your email for instructions to reset the password"
+	],
+	"forgot.error": [
+		"No such account related to this email exists in your system"
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"build.create.success": ["Build Configuration Created Successfully"],
+	"build.create.failed": [
+		"There was an error while Creating Your Build Configuration"
+	],
+	"build.update.success": ["Build Configuration Updated Successfully"],
+	"build.update.failed": [
+		"There was an error while Updating Your Build Configuration"
+	]
+}

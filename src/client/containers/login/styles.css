@@ -1,0 +1,367 @@
+/*app specific*/
+/*fonts*/
+/*colors*/
+/*borders*/
+/*backgrounds*/
+/*titles*/
+/*links*/
+/*text*/
+/*social*/
+/*app specific*/
+/*fonts*/
+/*colors*/
+/*borders*/
+/*backgrounds*/
+/*titles*/
+/*links*/
+/*text*/
+/*social*/
+/* backgrounds */
+.background {
+	display: block;
+	background-color: #d8d8d8;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* content center */
+.content-center,
+.join-form {
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-align: center;
+	align-items: center;
+	vertical-align: middle;
+	text-align: center;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.join-form {
+	background: #fc404e;
+	height: 100vh;
+	font-family: Lato-Light, sans-serif;
+}
+
+.join-form .logo {
+	position: absolute;
+	top: 30px;
+	left: 50px;
+}
+
+.join-form .logo img {
+	width: 150px;
+}
+
+.join-form .content {
+	width: 500px;
+}
+
+.join-form .content .form {
+	width: 350px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.join-form .content .form ::-webkit-input-placeholder {
+	/* Chrome/Opera/Safari */
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.join-form .content .form ::-moz-placeholder {
+	/* Firefox 19+ */
+	color: #fff;
+	text-transform: uppercase;
+	font-family: Lato-Light, sans-serif;
+	font-size: 14px;
+}
+
+.join-form .content .form :-ms-input-placeholder {
+	/* IE 10+ */
+	color: #fff;
+	text-transform: uppercase;
+	font-family: Lato-Light, sans-serif;
+	font-size: 14px;
+}
+
+.join-form .content .form :-moz-placeholder {
+	/* Firefox 18- */
+	color: #fff;
+	text-transform: uppercase;
+	font-family: Lato-Light, sans-serif;
+	font-size: 14px;
+}
+
+.join-form .content .form .title {
+	font-size: 45px;
+	color: #fff;
+	margin-bottom: 12px;
+}
+
+.join-form .content .form .description {
+	font-size: 15px;
+	color: #fff;
+	margin-bottom: 15px;
+	font-weight: 200;
+}
+
+.join-form .content .form .input {
+	height: 45px;
+	background: #ef2838;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	padding-left: 12px;
+}
+
+.join-form .content .form .input:focus {
+	box-shadow: none;
+}
+
+.join-form .content .form .has-error.has-feedback:after {
+	top: 7px;
+	color: #fff;
+}
+
+.join-form .content .form .has-success.has-feedback:after {
+	top: 7px;
+}
+
+.join-form .content .form .ant-form-item {
+	margin-bottom: 10px;
+}
+
+.join-form .content .form .ant-form-item-with-help {
+	margin-bottom: 4px;
+	text-align: left;
+}
+
+.join-form .content .form .ant-form-item-with-help .ant-form-explain {
+	margin-top: 5px;
+	color: #fff;
+}
+
+.join-form .content .form .options {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.join-form .content .form .options .remember {
+	font-size: 13px;
+	letter-spacing: 2px;
+	color: #fff;
+}
+
+.join-form .content .form .options .remember .ant-radio-inner {
+	border-color: #fc404e;
+}
+
+.join-form .content .form .options .remember .ant-radio-inner:after {
+	background-color: #fc404e;
+}
+
+.join-form .content .form .options .forgot {
+	font-size: 13px;
+	letter-spacing: 2px;
+	color: #fff;
+}
+
+.join-form .content .form .options .forgot a {
+	color: #fff;
+}
+
+.join-form .content .form .options .forgot a:hover {
+	text-decoration: underline;
+}
+
+.join-form .content .form .action .submit-btn {
+	height: 45px;
+	width: 100%;
+	background-color: #fff;
+	text-transform: uppercase;
+	color: #fc404e;
+	font-size: 13px;
+	line-height: 47px;
+	border: none;
+	font-family: Lato-Regular, sans-serif;
+}
+
+.join-form .content .form .ant-checkbox-checked .ant-checkbox-inner,
+.join-form .content .form .ant-checkbox-indeterminate .ant-checkbox-inner {
+	background-color: #ef2938;
+	border-color: #ef2938;
+}
+
+.join-form .content .form .separator {
+	color: #fff;
+	margin: 10px 0px;
+}
+
+.join-form .content .form .react-tel-input {
+	width: inherit;
+	margin-bottom: 20px;
+}
+
+.join-form .content .form .react-tel-input input {
+	height: 45px;
+	background: #ef2838;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	box-shadow: none;
+}
+
+.join-form .content .form .react-tel-input input:focus {
+	outline: 0;
+}
+
+.join-form .content .form .react-tel-input .flag-dropdown {
+	border: none;
+	background: #fff;
+}
+
+.join-form .content .form .react-tel-input .flag-dropdown .selected-flag {
+	height: 45px;
+}
+
+.join-form .content .form .react-tel-input .country-list {
+	margin: 0;
+	box-shadow: none;
+	background-color: #fff;
+	border: none;
+	width: 350px;
+	overflow-y: scroll;
+	border-radius: 0;
+	top: 50px;
+	text-align: left;
+}
+
+.join-form .content .options {
+	display: flex;
+	justify-content: space-between;
+	width: 350px;
+	margin: auto;
+	text-align: left;
+}
+
+.join-form .content .options .option {
+	line-height: 28px;
+}
+
+.join-form .content .options .option .optionLabel {
+	font-size: 13px;
+	letter-spacing: 2px;
+	color: #fff;
+}
+
+.join-form .content .options .option .textLink {
+	color: #fff;
+	font-size: 30px;
+}
+
+.join-form .content .options .option ul {
+	text-align: right;
+}
+
+.join-form .content .options .option ul li {
+	display: inline-block;
+	margin-left: 8px;
+	margin-top: 4px;
+}
+
+.join-form .content .options .option ul li a img {
+	width: 28px;
+}
+
+.join-form .content .options .option ul li a img.github {
+	width: 27px;
+}
+
+/* responsiveness */
+@media (max-width: 992px) {
+	.join-form {
+		min-height: 100vh;
+		height: inherit;
+		flex-direction: column;
+	}
+
+	.join-form .logo {
+		position: inherit;
+		margin-bottom: 10px;
+	}
+
+	.join-form .content {
+		width: inherit;
+	}
+
+	.join-form .content .form .title {
+		font-size: 35px;
+	}
+
+	.join-form .content .options .option ul li a img {
+		width: 25px;
+	}
+
+	.join-form .content .options .option .textLink {
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 520px) {
+	.join-form {
+		padding: 35px 0px;
+	}
+
+	.join-form .content {
+		width: 100%;
+		padding: 0px 10px;
+	}
+
+	.join-form .content .form {
+		width: 100%;
+	}
+
+	.join-form .content .form .title {
+		font-size: 25px;
+	}
+
+	.join-form .content .form .country-list {
+		width: 100%;
+	}
+
+	.join-form .content .form .description {
+		font-size: 13px;
+		padding: 0px 15px;
+	}
+
+	.join-form .content .options {
+		width: 100%;
+	}
+
+	.join-form .content .options .option .optionLabel {
+		font-size: 12px;
+		letter-spacing: 1px;
+		line-height: 18px;
+		margin-bottom: 5px;
+	}
+
+	.join-form .content .options .option .optionLabel.right {
+		text-align: right;
+	}
+
+	.join-form .content .options .option .textLink {
+		font-size: 25px;
+	}
+
+	.join-form .options {
+		width: 100%;
+	}
+}
+
+/* /responsiveness */
+
+/*# sourceMappingURL=styles.css.map */
